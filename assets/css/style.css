@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E9E9E0;
+}
+
+/*============== HEADER ==============*/
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+h1::first-letter, header span {
+    font-size: 1.5em;
+}
+
+nav {
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: double;
+    margin: 0 5% 3vh;
+    text-align: center;
+    /* justify-content: space-between; */
+}
+
+nav ul li {
+    display: inline;
+    /* justify-content: space-between; */
+    margin: 10%;
+}
+
+/*============== MAIN ==============*/
+
+/* BURNING, SHATTERING AND CUTTING */
+h2 {
+    text-align: left;
+    margin: 0 0 3vh 15%;
+    width: 100%;
+    font-size: 2em;
+}
+
+main {
+    display: flex;
+    margin: 0 5%;
+}
+
+section:nth-of-type(1) {
+    flex-basis: 40%;
+}
+
+section:nth-of-type(2) {
+    flex-basis: 40%;
+}
+
+/* KÜCHEN BILD */
+section:nth-of-type(2) img {
+    width: 90%;
+    margin-left: 3vh;
+}
+
+figcaption {
+    font-style: italic;
+    margin-left: 3vh;
+}
+
+.sectionGrid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 120px 250px;
+    grid-template-areas: 
+    "A B"
+    "C D"
+    "E F";
+}
+
+.sectionGrid > div {
+    margin: 0 5%;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+.shatteringCookware {
+    grid-area: A;
+}
+
+.microwaveOvenBurns {
+    grid-area: B;
+}
+
+.knifeCuts {
+    grid-area: C;
+}
+
+.cookingFires {
+    grid-area: D;
+}
+
+.contactBurns {
+    grid-area: E;
+}
+
+.deathToThePathogens {
+    grid-area: F;
+}
+
+/*============= ASIDE =============*/
+
+aside {
+    flex-basis: 20%;
+    /* margin-left: 15%; */
+}
+
+aside img {
+    width: 30%;
+}
+
+/* VISIT OUR SPONSORS */
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: -7vh 0 3vh 15%;
+}
+
+.yourAddHere {
+    font-size: 4em;
+    text-align: center;
+
+    border: 5px solid;
+    border-style: double;
+    margin-left: 20%;
+}
+
+.knivesNeeded {
+    padding: 10%;
+    border: 5px solid;
+    border-style: double;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.knivesNeeded a {
+    font-size: 1.2em;
+    color: grey;
+}
+
+.asideImage {
+    padding: 10%;
+    border: 5px solid;
+    border-style: double;
+    margin-left: 20%;
+}
+
+.asideImage img {
+    width: 100%;
+}
