@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
+
+/*============== GENERAL STYLES ==============
+
+font-family: 'Cormorant Garamond', serif;
+Farben: rgb(233, 233, 224), #333
+
+=============================================*/
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +14,7 @@
 }
 
 body {
-    background: #E9E9E0;
+    background: rgb(233, 233, 224);
 }
 
 /*============== HEADER ==============*/
@@ -87,6 +96,8 @@ figcaption {
 
 h5 {
     font-size: 1.2em;
+    /* font-family: 'Cormorant Garamond', serif;
+    font-weight: 700 bold; */
 }
 
 .shatteringCookware {
